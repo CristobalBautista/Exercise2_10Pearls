@@ -1,3 +1,3 @@
 # Exercise2_10Pearls
-Project with the implementation for the exercise 1 of the QA assessment
+Project with the implementation for the exercise 2 of the QA assessment
 
