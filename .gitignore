@@ -1,0 +1,26 @@
+# Ignore Gradle project-specific cache directory
+#Gradle
+.gradle
+/.gradle/
+/build
+
+# Ignore Gradle build output directory
+build
+
+# Serenity-BDD
+/target/
+
+# Eclipse
+.classpath
+.project
+.metadata
+/bin
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+/.settings/
+.loadpath
+.recommenders
