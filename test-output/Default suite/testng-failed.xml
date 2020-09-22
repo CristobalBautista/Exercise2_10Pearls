@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.linkedin.LoginTest">
+      <class name="com.linkedin.Exercise2_LoginTest">
         <methods>
           <include name="setUpBrowser"/>
           <include name="loginToLinkedIn" invocation-numbers="1 2 3"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.linkedin.LoginTest -->
+      </class> <!-- com.linkedin.Exercise2_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

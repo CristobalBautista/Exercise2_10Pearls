@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59617" started-at="2020-09-22T00:59:45 COT" finished-at="2020-09-22T01:00:45 COT">
+  <suite name="Default suite" duration-ms="106672" started-at="2020-09-22T13:29:41 COT" finished-at="2020-09-22T13:31:27 COT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59617" started-at="2020-09-22T00:59:45 COT" finished-at="2020-09-22T01:00:45 COT">
-      <class name="com.linkedin.LoginTest">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="12720" started-at="2020-09-22T00:59:46 COT" finished-at="2020-09-22T00:59:59 COT">
+    <test name="Default test" duration-ms="106672" started-at="2020-09-22T13:29:41 COT" finished-at="2020-09-22T13:31:27 COT">
+      <class name="com.linkedin.Exercise2_LoginTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="21276" started-at="2020-09-22T13:29:50 COT" finished-at="2020-09-22T13:30:11 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="8270" started-at="2020-09-22T00:59:59 COT" data-provider="LoginData" finished-at="2020-09-22T01:00:07 COT">
+        <test-method status="PASS" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="17563" started-at="2020-09-22T13:30:11 COT" data-provider="LoginData" finished-at="2020-09-22T13:30:28 COT">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToLinkedIn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2020-09-22T01:00:07 COT" finished-at="2020-09-22T01:00:08 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="1047" started-at="2020-09-22T13:30:28 COT" finished-at="2020-09-22T13:30:29 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="10449" started-at="2020-09-22T01:00:08 COT" finished-at="2020-09-22T01:00:18 COT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="11571" started-at="2020-09-22T13:30:29 COT" finished-at="2020-09-22T13:30:41 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="1724" started-at="2020-09-22T01:00:18 COT" data-provider="LoginData" finished-at="2020-09-22T01:00:20 COT">
+        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="12205" started-at="2020-09-22T13:30:41 COT" data-provider="LoginData" finished-at="2020-09-22T13:30:53 COT">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 0154c4595a2b38b1b99e9a79715e65b9
+Session ID: 869c356eda5c57b7970258148052aad6
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}]]>
             </message>
             <full-stacktrace>
@@ -72,7 +72,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 0154c4595a2b38b1b99e9a79715e65b9
+Session ID: 869c356eda5c57b7970258148052aad6
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -93,8 +93,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
-at com.linkedin.pages.HomePage.homePageIsDisplayedOnScreen(HomePage.java:20)
-at com.linkedin.LoginTest.loginToLinkedIn(LoginTest.java:45)
+at com.linkedin.pages.LinkedinHomePage.homePageIsDisplayedOnScreen(LinkedinHomePage.java:20)
+at com.linkedin.Exercise2_LoginTest.loginToLinkedIn(Exercise2_LoginTest.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,15 +129,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToLinkedIn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="1269" started-at="2020-09-22T01:00:20 COT" finished-at="2020-09-22T01:00:21 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="1184" started-at="2020-09-22T13:30:53 COT" finished-at="2020-09-22T13:30:54 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="10352" started-at="2020-09-22T01:00:21 COT" finished-at="2020-09-22T01:00:32 COT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="13294" started-at="2020-09-22T13:30:54 COT" finished-at="2020-09-22T13:31:08 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="398" started-at="2020-09-22T01:00:32 COT" data-provider="LoginData" finished-at="2020-09-22T01:00:32 COT">
+        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="740" started-at="2020-09-22T13:31:08 COT" data-provider="LoginData" finished-at="2020-09-22T13:31:08 COT">
           <params>
             <param index="0">
               <value>
@@ -161,7 +161,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 977f5e24dee44455dd31a1f54faff466
+Session ID: 327147e16fe94255540de264f1aca02e
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}]]>
             </message>
             <full-stacktrace>
@@ -174,7 +174,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 977f5e24dee44455dd31a1f54faff466
+Session ID: 327147e16fe94255540de264f1aca02e
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -195,8 +195,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
-at com.linkedin.pages.HomePage.homePageIsDisplayedOnScreen(HomePage.java:20)
-at com.linkedin.LoginTest.loginToLinkedIn(LoginTest.java:45)
+at com.linkedin.pages.LinkedinHomePage.homePageIsDisplayedOnScreen(LinkedinHomePage.java:20)
+at com.linkedin.Exercise2_LoginTest.loginToLinkedIn(Exercise2_LoginTest.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -231,15 +231,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToLinkedIn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="675" started-at="2020-09-22T01:00:32 COT" finished-at="2020-09-22T01:00:33 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="4025" started-at="2020-09-22T13:31:08 COT" finished-at="2020-09-22T13:31:13 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="10769" started-at="2020-09-22T01:00:33 COT" finished-at="2020-09-22T01:00:44 COT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="setUpBrowser" is-config="true" duration-ms="11518" started-at="2020-09-22T13:31:13 COT" finished-at="2020-09-22T13:31:24 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="559" started-at="2020-09-22T01:00:44 COT" data-provider="LoginData" finished-at="2020-09-22T01:00:44 COT">
+        <test-method status="FAIL" signature="loginToLinkedIn(java.lang.String, java.lang.String)[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="loginToLinkedIn" duration-ms="986" started-at="2020-09-22T13:31:24 COT" data-provider="LoginData" finished-at="2020-09-22T13:31:25 COT">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 44292658e120a96879ba5606537a05e5
+Session ID: 33c77c4f6ec347507ad30d66cd5d78a2
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}]]>
             </message>
             <full-stacktrace>
@@ -276,7 +276,7 @@ Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'DESKTOP-UG9D2ST', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 44292658e120a96879ba5606537a05e5
+Session ID: 33c77c4f6ec347507ad30d66cd5d78a2
 *** Element info: {Using=xpath, value=//header[@id='global-nav']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -297,8 +297,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
-at com.linkedin.pages.HomePage.homePageIsDisplayedOnScreen(HomePage.java:20)
-at com.linkedin.LoginTest.loginToLinkedIn(LoginTest.java:45)
+at com.linkedin.pages.LinkedinHomePage.homePageIsDisplayedOnScreen(LinkedinHomePage.java:20)
+at com.linkedin.Exercise2_LoginTest.loginToLinkedIn(Exercise2_LoginTest.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -333,11 +333,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToLinkedIn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="843" started-at="2020-09-22T01:00:44 COT" finished-at="2020-09-22T01:00:45 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.linkedin.Exercise2_LoginTest@27808f31]" name="closeBrowser" is-config="true" duration-ms="2195" started-at="2020-09-22T13:31:25 COT" finished-at="2020-09-22T13:31:27 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.linkedin.LoginTest -->
+      </class> <!-- com.linkedin.Exercise2_LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,13 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class LinkedinHomePage {
 	WebDriver driver;
 
 	@FindBy(xpath = "//header[@id='global-nav']")
 	WebElement mainNavigationBar;
 
-	public HomePage(WebDriver driver) {
+	public LinkedinHomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

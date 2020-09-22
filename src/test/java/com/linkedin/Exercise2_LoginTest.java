@@ -1,6 +1,6 @@
 package com.linkedin;
 
-import static com.linkedin.util.Constants.BASE_URL;
+import static com.linkedin.util.Constants.LOGIN_BASE_URL;
 import static com.linkedin.util.Constants.DRIVER_PATH;
 import static com.linkedin.util.ReadExcel.getLoginData;
 import static org.junit.Assert.assertEquals;
@@ -12,13 +12,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.linkedin.pages.HomePage;
-import com.linkedin.pages.LoginPage;
+import com.linkedin.pages.LinkedinHomePage;
+import com.linkedin.pages.LinkedinLoginPage;
 
-public class LoginTest {
+public class Exercise2_LoginTest {
 
-	LoginPage loginPage;
-	HomePage homePage;
+	LinkedinLoginPage loginPage;
+	LinkedinHomePage homePage;
 	public WebDriver driver;
 
 	@DataProvider(name = "LoginData")
@@ -30,17 +30,17 @@ public class LoginTest {
 	public void setUpBrowser() {
 		System.setProperty("webdriver.chrome.driver", DRIVER_PATH);
 		driver = new ChromeDriver();
-		loginPage = new LoginPage(driver);
-		homePage = new HomePage(driver);
+		loginPage = new LinkedinLoginPage(driver);
+		homePage = new LinkedinHomePage(driver);
 		driver.manage().window().maximize();
-		driver.get(BASE_URL);
+		driver.get(LOGIN_BASE_URL);
 
 	}
 
 	@Test(dataProvider = "LoginData")
 	public void loginToLinkedIn(String email, String password) {
-		loginPage = new LoginPage(driver);
-		homePage = new HomePage(driver);
+		loginPage = new LinkedinLoginPage(driver);
+		homePage = new LinkedinHomePage(driver);
 		loginPage.loginToAccount(email, password);
 		assertEquals(homePage.homePageIsDisplayedOnScreen(), true);
 	}
